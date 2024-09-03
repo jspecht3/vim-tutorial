@@ -31,7 +31,7 @@ You should see a screen that looks like the one below.
 ![opening-screen](images/opening-screen.png)
 
 By default, you are in "normal" mode. In normal mode, you cannot type. To begin typing, you need to hit :sparkles: `i`, which puts you into "insert" mode. You will know you are in insert mode with a flag at the bottom of the terminal as below.
----insert the image of the insert mode
+![insert-mode](images/insert-mode.png)
 
 Once in insert mode, you can begin typing like usual. Let's type some example text. 
 ```
@@ -45,10 +45,10 @@ You get another line when hitting enter.
 ```
 
 Now that we have some text, let's navigate around and edit some text. After typing, your location in the text (indicated by the flashing white box) should be at the end of the file.
----insert the image of the end of text.
+![end-of-text](images/cursor-at-end.png)
 
 We can navigate between lines using the :sparkles: the `up arrow` key to move up a line and the :sparkles: the `down arrow` key to move down a line. Similarly, we can navigate inside of a line by using :sparkles: the `left arrow` key to move left and :sparkles: the `right arrow` key to move right. Using the arrow keys, navigate in the file so your cursor is in the same spot as mine.
----cursor at example
+![cursor-at-example](images/cursor-at-example.png)
 
 Notice the cursor over the "e" in example. :red_circle: When entering text, you will insert the text **before** the cursor. In this case, we any text we enter will go after "This is some " and shift "example text." to the right.
 
@@ -69,10 +69,10 @@ After these revisions, we are ready to save the file. To save, we need to get ba
 :red_circle: To determine which mode you are in, look at the bottom of the screen. If there is no indicator, you are in normal mode. If there is an indicator, it will tell you what mode you are in.
 
 Now that we are in normal mode, we want to save and close the file. To do this, we first hit :sparkles: `:`, which shows at the bottom of the sreen and indicates you want to enter certain commands.
----colon
+![colon](images/colon.png)
 
 After entering this "command" mode. We can save the changes we have made and close the file by typing :sparkles: `wq` after the `:` and then hitting enter.
----wq
+![wq](images/wq.png)
 
 Here, `wq` stands for "write" and "quit", which saves the changes made to the file and closes it aswell.
 
