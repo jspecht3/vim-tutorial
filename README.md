@@ -1,6 +1,8 @@
 # vim-tutorial
 Tutorial for vim geared towards complete beginners. With this, you should be able to comptently use vim in the terminal.
 
+WIP
+
 Like everything in life, when first learning something new, try establishing a basic framework you can later integrate more complexity. To develop this framework, you can go to [Absolute Basics](#absolute-basics).
 
 Before you start the tutorial, make sure you have vim installed using `vi --version | head -1`. You should see that you have VIM - Vi IMproved like below. If you do not see this, search on the internet "how to install vim on <your-operating-system>" (if you are using wsl, make sure to choose the linux distro your subsystem is running).
