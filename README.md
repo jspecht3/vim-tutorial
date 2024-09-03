@@ -28,7 +28,7 @@ $ vi example.txt
 ```
 
 You should see a screen that looks like the one below.
----insert the image of the opening vim screen
+!(images/opening-screen.png)
 
 By default, you are in "normal" mode. In normal mode, you cannot type. To begin typing, you need to hit :sparkles: `i`, which puts you into "insert" mode. You will know you are in insert mode with a flag at the bottom of the terminal as below.
 ---insert the image of the insert mode
