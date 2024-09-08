@@ -1,5 +1,5 @@
 # vim-tutorial
-Tutorial for vim geared towards complete beginners. With this, you should be able to comptently use vim in the terminal.
+Tutorial for vim geared towards complete beginners. With this, you should be able to competently use vim in the terminal.
 
 WIP
 
@@ -70,7 +70,7 @@ After these revisions, we are ready to save the file. To save, we need to get ba
 
 :red_circle: To determine which mode you are in, look at the bottom of the screen. If there is no indicator, you are in normal mode. If there is an indicator, it will tell you what mode you are in.
 
-Now that we are in normal mode, we want to save and close the file. To do this, we first hit :sparkles: `:`, which shows at the bottom of the sreen and indicates you want to enter certain commands.
+Now that we are in normal mode, we want to save and close the file. To do this, we first hit :sparkles: `:`, which shows at the bottom of the screen and indicates you want to enter certain commands.
 ![colon](images/colon.png)
 
 After entering this "command" mode. We can save the changes we have made and close the file by typing :sparkles: `wq` after the `:` and then hitting enter.
@@ -83,3 +83,33 @@ You can also execute these commands independently. For example, you can use `:w`
 :red_circle: If you are ever lost while using vim, you can usually regain your bearings by hitting the `esc` key a few times to return to normal mode.
 
 With this, you now have the basic framework to create, navigate, and edit files using vim.
+
+# Quicker Navigation
+After developing your basic vim framework, you may find that editing is quite cumbersome with usage of the arrow keys. This section will cover some of the luxuries that allow you to move between lines far quicker.
+
+For this example, we will work with the `quicker-navigation.txt` file in this repository. You can copy the entire repository using the following command.
+```
+$ cd ~/projects
+$ git clone https://github.com/jspecht3/vim-tutorial
+$ cd ~/projects/vim-tutorial
+```
+
+This takes This assumes you have a `projects` directory. If not, you should make one with `mkdir ~/projects`.
+
+After running the commands above, you will be in the `vim-tutorial` directory. Let's open `quicker-navigation.txt` and work inside.
+```
+$ vi quicker-navigation.txt
+```
+
+`quicker-navigation.txt` looks like this.
+---quicker-navigation
+
+Here, as long as we believe the author, we can can look at the bottom of the file and see there are fourteen lines. Personally, if don't trust the author and want to verify (I hear the author of this file is a bit strange).
+
+Let's check how many lines there are by jumping to the bottom of the file. We can just to the bottom of the file by using :sparkles: `G`.
+
+A quick aside. :red_circle: In vim, commands are case sensitive, so `G` will do something different than `g`.
+
+:red_circle: As a general rule, commands will almost always be used in normal mode. From now on, it will be assumed that commands are used in normal mode. As a reminder, normal mode can be entered by hitting `esc` and noticing nothing on the bottom line.
+
+Back to the bottom, we can now see that there are in fact fourteen lines by looking at the very bottom of the terminal. 
