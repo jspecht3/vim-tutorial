@@ -56,7 +56,7 @@ We can navigate between lines using the :sparkles: the `up arrow` key to move up
 
 ![cursor-at-example](images/cursor-at-example.png)
 
-A quick aside, there are many ways to move in an between lines in vim. The arrow keys will always work, but they quite far away from where your hand usually is. Instead of using the arrow keys, most vim users use ✨ `h` to move left a character, ✨ 'j' to move down a line, ✨ 'k' to move up a line, and ✨ 'l' to move right a character. However, these motions only work in normal mode. If you are insert mode, you can preface 'h, j, k, l' with 'alt' to use the same motions as before. For example, you would type ✨ 'Alt + j' to move down a line.
+A quick aside, there are many ways to move in an between lines in vim. The arrow keys will always work, but they quite far away from where your hand usually is. Instead of using the arrow keys, most vim users use ✨ `h` to move left a character, ✨ `j` to move down a line, ✨ `k` to move up a line, and ✨ `l` to move right a character. However, these motions only work in normal mode. If you are insert mode, you can preface `h, j, k, l` with `alt` to use the same motions as before. For example, you would type ✨ `Alt + j` to move down a line while in insert mode.
 
 Notice the cursor over the "e" in example. :red_circle: When entering text, you will insert the text **before** the cursor. In this case, we any text we enter will go after "This is some " and shift "example text." to the right.
 
