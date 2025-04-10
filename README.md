@@ -50,6 +50,7 @@ Now that we have some text, let's navigate around and edit some text. After typi
 ![end-of-text](images/cursor-at-end.png)
 
 We can navigate between lines using the :sparkles: the `up arrow` key to move up a line and the :sparkles: the `down arrow` key to move down a line. Similarly, we can navigate inside of a line by using :sparkles: the `left arrow` key to move left and :sparkles: the `right arrow` key to move right. Using the arrow keys, navigate in the file so your cursor is in the same spot as mine.
+
 ![cursor-at-example](images/cursor-at-example.png)
 
 Notice the cursor over the "e" in example. :red_circle: When entering text, you will insert the text **before** the cursor. In this case, we any text we enter will go after "This is some " and shift "example text." to the right.
