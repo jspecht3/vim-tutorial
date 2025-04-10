@@ -75,6 +75,7 @@ Now that we are in normal mode, we want to save and close the file. To do this, 
 ![colon](images/colon.png)
 
 After entering this "command" mode. We can save the changes we have made and close the file by typing :sparkles: `wq` after the `:` and then hitting enter.
+
 ![wq](images/wq.png)
 
 Here, `wq` stands for "write" and "quit", which saves the changes made to the file and closes it aswell.
